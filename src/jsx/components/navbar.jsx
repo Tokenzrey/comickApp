@@ -1,6 +1,11 @@
 import { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../../css/navbar.css";
+import img1 from "../../assets/images/time-left.png"
+import img2 from "../../assets/images/bookmark.png"
+import img3 from "../../assets/images/refresh.png"
+import img4 from "../../assets/images/browse.png"
+import img5 from "../../assets/images/settings.png"
 const Navigation = () => {
 	const location = useLocation();
 	// Fungsi untuk menangani klik pada tautan "ComickApp"
@@ -110,23 +115,23 @@ const Navigation = () => {
 				</div>
 				<div className="navigation-mobile-menu">
 					<Link to="/comickApp">
-						<img src="assets/images/time-left.png" alt="History" />
+						<img src={img1} alt="History" />
 						History
 					</Link>
 					<Link to="/comickApp/library">
-						<img src="assets/images/bookmark.png" alt="Library" />
+						<img src={img2} alt="Library" />
 						Library
 					</Link>
 					<Link to="/comickApp/update">
-						<img src="assets/images/refresh.png" alt="Update" />
+						<img src={img3} alt="Update" />
 						Update
 					</Link>
 					<Link to="/comickApp/browse">
-						<img src="assets/images/browse.png" alt="Browse" />
+						<img src={img4} alt="Browse" />
 						Browse
 					</Link>
 					<Link to="/comickApp/settings">
-						<img src="assets/images/settings.png" alt="Setting" />
+						<img src={img5} alt="Setting" />
 						Settings
 					</Link>
 				</div>
