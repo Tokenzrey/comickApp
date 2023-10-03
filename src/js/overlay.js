@@ -28,7 +28,7 @@ overlayElements.forEach(function (overlay, index) {
 
 // Buat scene dengan posisi trigger 10% di atas bawah elemen ".container-overlay"
 // dan posisi start berada di atas elemen ".spacer" dan posisi end berada di 80% dari elemen ".spacer"
-var scene = new ScrollMagic.Scene({
+var scene = new ScrollMagic.SceneScene({
 	triggerElement: ".spacer",
 	triggerHook: "onEnter",
 	duration: innerHeight - 5,
@@ -36,3 +36,4 @@ var scene = new ScrollMagic.Scene({
 	.setTween(tween)
 	.setPin(".container-overlay")
 	.addTo(controller);
+export default scene;

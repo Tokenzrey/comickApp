@@ -1,3 +1,4 @@
+import scene from './scrollScene.js';
 var content = document.querySelector(".contents");
 
 function sceneOn() {
