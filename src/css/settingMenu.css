@@ -1,0 +1,220 @@
+button.dropdown__item {
+	border: none;
+	background: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.dropdown__button {
+	display: flex;
+	align-items: center;
+	padding: 5px 15px;
+	background-color: transparent;
+	border-radius: 0.5rem;
+	border: solid 2px var(--backgroung-card);
+}
+.submit-icon.active .dropdown__button i {
+	transform: rotate(0deg);
+}
+.dropdown__button h1 {
+	color: var(--backgroung-card) !important;
+	font-weight: 600 !important;
+	font-size: 20px !important;
+	letter-spacing: 1px!important;
+}
+@media screen and (max-width: 550px) {
+	.dropdown__button h1 {
+		font-size: 13px !important;
+	}
+}
+.dropdown__button i {
+	color: var(--backgroung-card);
+	margin-left: 1rem;
+	transform: rotate(180deg);
+	transition: transform 0.1s ease-in;
+}
+
+.dropdown__button:hover {
+	background-color: var(--backgroung-card);
+	border: 2px solid #ffff;
+	outline: 3px solid var(--backgroung-card);
+}
+.dropdown__button:hover h1 {
+	color: #ffff !important;
+}
+.dropdown__button:hover i {
+	color: #ffff;
+}
+.dropdown__items {
+	display: none;
+	background-color: #ffff;
+	position: absolute;
+	margin-top: 0.5rem;
+	right: 2.7vw;
+	width: 200px;
+	border-radius: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	animation: open 0.3s;
+	transition: all 1s ease-in-out;
+	overflow: hidden;
+	border: solid 0px var(--backgroung-card);
+	padding: 10px 15px;
+	max-height: 0;
+	z-index: 20;
+	-webkit-transform: scaleY(0);
+	-moz-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	-o-transform: scaleY(0);
+	transform: scaleY(0);
+	animation: hideAnimation 0.4s ease-out forwards;
+	transition: max-height 0.4s ease-out;
+}
+.dropdown__items.show {
+	display: block;
+	transform-origin: 50% 0%;
+	max-height: 75vh;
+	transform: scaleY(1);
+	animation: showAnimation 0.5s ease-in-out;
+	transition: max-height 0.5s ease-in-out;
+}
+.dropdown__item {
+	color: var(--backgroung-card) !important;
+	font-weight: 500 !important;
+	font-size: 15px !important;
+	width: 100%;
+	text-align: left;
+	padding: 1rem;
+}
+
+.dropdown__item:hover {
+	background-color: var(--backgroung-card);
+	color: #ffff !important;
+	border-radius: 0.5rem;
+}
+
+.button-switch {
+	font-size: 1.5em;
+	height: 1.875em;
+	margin-bottom: 0;
+	position: relative;
+	width: 4.5em;
+}
+.button-switch .lbl-off,
+.button-switch .lbl-on {
+	cursor: pointer;
+	display: block;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1em;
+	position: absolute;
+	top: 0.5em;
+	transition: opacity 0.25s ease-out 0.1s;
+	text-transform: uppercase;
+}
+.button-switch .lbl-off {
+	color: var(--backgroung-card);
+	right: 0.4375em;
+}
+.button-switch .lbl-on {
+	color: #fefefe;
+	opacity: 0;
+	left: 0.4375em;
+}
+.button-switch .switch {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	height: 0;
+	font-size: 1em;
+	left: 0;
+	line-height: 0;
+	outline: none;
+	position: absolute;
+	top: 0;
+	width: 0;
+}
+.button-switch .switch:before,
+.button-switch .switch:after {
+	content: "";
+	font-size: 1em;
+	position: absolute;
+}
+.button-switch .switch:before {
+	border-radius: 1.25em;
+	background: #bdc3c7;
+	height: 1.875em;
+	left: -0.25em;
+	top: -0.1875em;
+	transition: background-color 0.25s ease-out 0.1s;
+	width: 4.5em;
+}
+.button-switch .switch:after {
+	box-shadow: 0 0.0625em 0.375em 0 #666;
+	border-radius: 50%;
+	background: #fefefe;
+	height: 1.5em;
+	transform: translate(0, 0);
+	transition: transform 0.25s ease-out 0.1s;
+	width: 1.5em;
+}
+.button-switch .switch:checked:after {
+	transform: translate(2.5em, 0);
+}
+.button-switch .switch:checked ~ .lbl-off {
+	opacity: 0;
+}
+.button-switch .switch:checked ~ .lbl-on {
+	opacity: 1;
+}
+.button-switch .switch:checked:before {
+	background: var(--backgroung-card);
+}
+
+@keyframes open {
+	from {
+		transform: scaleY(0);
+	}
+
+	to {
+		transform: scaleY(1);
+	}
+}
+@keyframes showAnimation {
+	0% {
+		transform: scaleY(0.1);
+	}
+	40% {
+		transform: scaleY(1.04);
+	}
+	60% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.04);
+	}
+	100% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.02);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+@keyframes hideAnimation {
+	0% {
+		display: block;
+		transform: scaleY(1);
+	}
+	60% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.02);
+	}
+	100% {
+		display: none;
+		transform: scaleY(0);
+	}
+}

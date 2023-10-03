@@ -1,0 +1,60 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@font-face {
+	font-family: "Open Sans", sans-serif;
+	src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@500&display=swap");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Gang of Three";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Gang of Three"), url("./font/go3v2.woff") format("woff");
+}
+/* Hide the scrollbar for all elements */
+::-webkit-scrollbar {
+	width: 4px;
+	height: 100vh;
+}
+
+/* Optional: Hide scrollbar track */
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+/* Optional: Hide scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+	background-color: #ffff;
+	border-radius: 50%;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	background-color: var(--background-page);
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* Warna */
+:root {
+	--background-page: #00171f;
+	--secondary-color: #2a2b2d;
+	--backgroung-card: #00a8e8;
+	--text-color-1: #6f777f;
+	--text-color-2: #91979d;
+	--test: rgb(3, 112, 243);
+	--primary-color-light: #f6f5ff;
+	--line-color: #ddd;
+}
