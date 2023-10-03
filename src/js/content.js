@@ -1,4 +1,4 @@
-import scene from './scrollScene.js';
+import scene from "./overlay.js";
 var content = document.querySelector(".contents");
 
 function sceneOn() {
