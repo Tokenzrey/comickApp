@@ -15,6 +15,7 @@ export default defineConfig({
 	root,
 	plugins: [react(), reactRefresh()],
 	build: {
+		chunkSizeWarningLimit: 5000,
 		outDir,
 		emptyOutDir: true,
 		rollupOptions: {
