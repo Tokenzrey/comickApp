@@ -110,23 +110,23 @@ const Navigation = () => {
 				</div>
 				<div className="navigation-mobile-menu">
 					<Link to="/comickApp">
-						<img src="./assets/images/assets/time-left.png" alt="History" />
+						<img src="./assets/images/time-left.png" alt="History" />
 						History
 					</Link>
 					<Link to="/comickApp/library">
-						<img src="./assets/images/assets/bookmark.png" alt="Library" />
+						<img src="./assets/images/bookmark.png" alt="Library" />
 						Library
 					</Link>
 					<Link to="/comickApp/update">
-						<img src="./assets/images/assets/refresh.png" alt="Update" />
+						<img src="./assets/images/refresh.png" alt="Update" />
 						Update
 					</Link>
 					<Link to="/comickApp/browse">
-						<img src="./assets/images/assets/browse.png" alt="Browse" />
+						<img src="./assets/images/browse.png" alt="Browse" />
 						Browse
 					</Link>
 					<Link to="/comickApp/settings">
-						<img src="./assets/images/assets/settings.png" alt="Setting" />
+						<img src="./assets/images/settings.png" alt="Setting" />
 						Settings
 					</Link>
 				</div>
