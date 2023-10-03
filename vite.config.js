@@ -11,7 +11,7 @@ const root = path.resolve(__dirname, "src");
 const outDir = path.resolve(__dirname, "dist");
 console.log(root);
 export default defineConfig({
-	base: "/comickApp/",
+	base: "/comickApp",
 	root,
 	plugins: [react(), reactRefresh()],
 	build: {
