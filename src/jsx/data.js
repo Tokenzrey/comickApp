@@ -99,9 +99,9 @@ const Comick = [
 		comick_id: "31",
 		comickName: "Duke Pendragon",
 		comickInisialName: "",
-		comickLink: "https://asuracomics.gg/manga/4102803034-duke-pendragon/",
+		comickLink: "https://asuratoon.com/manga/3787011421-duke-pendragon/",
 		comickImage:
-			"https://img.asuracomics.com/unsafe/fit-in/720x936/https://asuracomics.gg/wp-content/uploads/2021/12/dukepenCover02.png",
+			"https://img.asuracomics.com/unsafe/fit-in/720x936/https://asuratoon.com/wp-content/uploads/2021/12/dukepenCover02.png",
 	},
 	{
 		comickSource_id: 2,
@@ -110,9 +110,9 @@ const Comick = [
 		comickName: "I Obtained a Mythic Item",
 		comickInisialName: "",
 		comickLink:
-			"https://asuracomics.gg/manga/4102803034-i-obtained-a-mythic-item/",
+			"https://asuratoon.com/manga/3787011421-i-obtained-a-mythic-item//",
 		comickImage:
-			"https://img.asuracomics.com/unsafe/fit-in/720x936/https://asuracomics.gg/wp-content/uploads/2022/06/IObtainedaMythicItemCover04.png",
+			"https://img.asuracomics.com/unsafe/fit-in/720x936/https://asuratoon.com/wp-content/uploads/2022/06/IObtainedaMythicItemCover04.png",
 	},
 	{
 		comickSource_id: 3,
@@ -120,9 +120,9 @@ const Comick = [
 		comick_id: "33",
 		comickName: "Infinite Mage",
 		comickInisialName: "",
-		comickLink: "https://asuracomics.gg/manga/4102803034-infinite-mage/",
+		comickLink: "https://asuratoon.com/manga/3787011421-infinite-mage/",
 		comickImage:
-			"https://img.asuracomics.com/unsafe/fit-in/720x936/https://asuracomics.gg/wp-content/uploads/2022/12/infiniteMageCover01.png",
+			"https://img.asuracomics.com/unsafe/fit-in/720x936/https://asuratoon.com/wp-content/uploads/2022/12/infiniteMageCover01.png",
 	},
 	{
 		comickSource_id: 1,
@@ -19465,16 +19465,16 @@ const Chapter = [
 		chapter_id: 8,
 	},
 ];
-const sourcePin =[
+const sourcePin = [
 	{
-		source_id : 1,
-		srcDate : "20-08-2023 06:32:57",
+		source_id: 1,
+		srcDate: "20-08-2023 06:32:57",
 	},
 	{
-		source_id : 2,
-		srcDate : "21-08-2023 06:32:57",
-	}
-]
+		source_id: 2,
+		srcDate: "21-08-2023 06:32:57",
+	},
+];
 const Source = [
 	{
 		source_id: 1,
