@@ -70,7 +70,7 @@ const Navigation = () => {
 						</li>
 						<li
 							className={
-								location.pathname === "/comickApp" ? "nav-links active" : "nav-links"
+								( location.pathname === "/comickApp" || location.pathname === "/comickApp/") ? "nav-links active" : "nav-links"
 							}
 						>
 							<Link to="/comickApp">History</Link>

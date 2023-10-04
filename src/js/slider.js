@@ -4,27 +4,27 @@ var numDivsActive;
 const sliders = [
 	{
 		selector: ".item-1",
-		speed: 3500,
+		speed: 4500,
 	},
 	{
 		selector: ".item-2",
-		speed: 3200,
+		speed: 4200,
 	},
 	{
 		selector: ".item-3",
-		speed: 3900,
+		speed: 4900,
 	},
 	{
 		selector: ".item-4",
-		speed: 3800,
+		speed: 4800,
 	},
 	{
 		selector: ".item-5",
-		speed: 3400,
+		speed: 4400,
 	},
 	{
 		selector: ".item-6",
-		speed: 4000,
+		speed: 5000,
 	},
 ];
 
