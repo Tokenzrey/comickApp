@@ -341,3 +341,13 @@
 		transform: scaleY(0);
 	}
 }
+@media (max-width: 440px) {
+	#browse-navbar > .top-section > h1 {
+		font-size: 3.5vh;
+		letter-spacing: 1px;
+	}
+	#sliders-setting {
+		width: 23px !important;
+		height: 26.76px !important;
+	}
+}

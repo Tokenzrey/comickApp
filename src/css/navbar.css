@@ -51,7 +51,6 @@ nav {
 	font-weight: 400;
 	text-decoration: none;
 	cursor: pointer;
-
 }
 
 /* Gaya untuk nav links */
@@ -253,11 +252,11 @@ nav {
 	padding: 0;
 	text-decoration: none;
 	font-family: "Lilita One", cursive;
-    letter-spacing: 0.1vw;
-    font-size: 3.7vh;
-    font-weight: 400;
+	letter-spacing: 0.1vw;
+	font-size: 3.7vh;
+	font-weight: 400;
 	color: #fff;
-	cursor:pointer;
+	cursor: pointer;
 }
 @media (max-width: 792px) {
 	.container-navbar {

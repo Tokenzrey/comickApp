@@ -1,6 +1,5 @@
 .sb-search {
 	position: relative;
-	margin-bottom: 0.6vh;
 	width: 0%;
 	min-width: 5vh;
 	height: 5vh;
@@ -106,4 +105,31 @@ input[type="search"].sb-search-input {
 	background: #00a8e8;
 	color: #fff;
 	z-index: 11;
+}
+
+@media (max-width: 440px) {
+	div.sb-search {
+		height: 4.2vh;
+		min-width: 4.2vh;
+	}
+
+	div.sb-search.sb-search-open {
+		height: 4.2vh;
+		min-width: 170px;
+	}
+
+	div.sb-search > form > input.sb-search-input,
+	div.sb-search > form > input.sb-search-submit,
+	div.sb-search > form > span {
+		height: 4.2vh;
+	}
+
+	div.sb-search > form > input.sb-search-input {
+		font-size: 1.7vh;
+	}
+
+	div.sb-search > form > span {
+		width: 4.2vh;
+		font-size: 2.5vh;
+	}
 }

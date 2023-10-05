@@ -88,3 +88,13 @@
 	letter-spacing: 0.5vh;
 	color: #ffff;
 }
+@media (max-width : 440px)  {
+	#history-navbar > .top-section > h1{
+		font-size:3.5vh;
+		letter-spacing: 1px;
+	}
+	#sliders-setting{
+		width: 23px!important;
+		height: 26.76px!important;
+	}
+}

@@ -73,7 +73,7 @@ const Navigation = () => {
 								( location.pathname === "/comickApp" || location.pathname === "/comickApp/") ? "nav-links active" : "nav-links"
 							}
 						>
-							<Link to="/comickApp">History</Link>
+							<Link to="/comickApp/">History</Link>
 						</li>
 						<li
 							className={
@@ -114,7 +114,7 @@ const Navigation = () => {
 					</div>
 				</div>
 				<div className="navigation-mobile-menu">
-					<Link to="/comickApp">
+					<Link to="/comickApp/">
 						<img src={img1} alt="History" />
 						History
 					</Link>
